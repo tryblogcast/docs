@@ -1,0 +1,23 @@
+{
+  "name": "blogcast-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vuepress build",
+    "dev": "vuepress dev",
+    "clear": "rm -rf ./.vuepress/dist",
+    "open": "browser-sync start --server '.vuepress/dist' --files='**/*'"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.0",
+    "@vuepress/plugin-pwa": "^1.0.0-alpha.0",
+    "vuepress": "^0.14.4",
+    "vuepress-plugin-export": "^0.1.0",
+    "vuepress-plugin-seo": "^0.1.2"
+  }
+}
