@@ -18,7 +18,7 @@
         class="site-name"
         v-if="$siteTitle"
         :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
+      >Blogcast</span>
     </a>
 
     <div

@@ -1,13 +1,13 @@
 module.exports = {
-  title: 'Blogcast',
+  title: 'Blogcast Documentation',
   description: 'The Blogcast documentation',
   themeConfig: {
-    nav: [
-      {
-        text: 'Blogcast',
-        link: 'https://blogcast.host'
-      }
-    ],
+    // nav: [
+    //   {
+    //     text: 'Blogcast',
+    //     link: 'https://blogcast.host'
+    //   }
+    // ],
     sidebar: [['/', 'Starter Guide']]
   },
   plugins: [
