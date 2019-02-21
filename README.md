@@ -46,6 +46,17 @@ You'll get a success message, and our system will start transcribing the article
 
 ## Adding the player to your site
 
+<details>
+<summary>Video Walkthrough</summary>
+
+::: tip No coding required
+I'm directly editing HTML for this example, but you can use whatever you are hosting your blog on.
+:::
+
+![Guided tutorial](images/starter-guide/3.gif)
+
+</details>
+
 Once the article has finished, you'll probably want to add it to your article, so your readers can listen to it.
 
 To do this, Blogcast provides an embed code that allows you to add a little player to the top of your article.
