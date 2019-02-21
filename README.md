@@ -42,4 +42,4 @@ To get started, navigate to [the Blogcast dashboard](https://blogcast.host/dashb
 
 A modal will open asking you for which voice to use. You can filter voices by language and gender, and listen to a sample. Once you're satisfied, click the _Select_ button to submit the form.
 
-You'll get a success message, and our system will start transcribing the article. This process can last between one and five minutes, so feel free to close the page if you want. In fact, I encourage you to close your computer and walk a little bit around your desk. You'll get an email when it's finished!
+You'll get a success message, and our system will start transcribing the article. This process can last between one and five minutes, so feel free to close the page if you want. In fact, <span class="highlight">I encourage you to close your computer and walk a little bit around your desk.</span> You'll get an email when it's finished!
