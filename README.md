@@ -43,3 +43,13 @@ To get started, navigate to [the Blogcast dashboard](https://blogcast.host/dashb
 A modal will open asking you for which voice to use. You can filter voices by language and gender, and listen to a sample. Once you're satisfied, click the _Select_ button to submit the form.
 
 You'll get a success message, and our system will start transcribing the article. This process can last between one and five minutes, so feel free to close the page if you want. In fact, <span class="highlight">I encourage you to close your computer and walk a little bit around your desk.</span> You'll get an email when it's finished!
+
+## Adding the player to your site
+
+Once the article has finished, you'll probably want to add it to your article, so your readers can listen to it.
+
+To do this, Blogcast provides an embed code that allows you to add a little player to the top of your article.
+
+Let's get the ball rolling! If you [access your dashboard](https://blogcast.host/dashboard), you should see the title of the article on the _Articles_ table. Click on the _Manage Audio_ button next to it, and copy the embed code provided by Blogcast (hint: click on the blue clipboard button next to the code).
+
+Now login into whichever platform you use to manage your blog, and paste that code at the top of your article. <span class="highlight">The next time you visit your article, you'll be able to listen to it, right in your blog. _How cool is that?_</span>
