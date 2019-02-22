@@ -2,6 +2,9 @@ module.exports = {
   title: 'Blogcast Documentation',
   description: 'The Blogcast documentation',
   themeConfig: {
+    repo: 'tryblogcast/docs',
+    editLinks: true,
+
     // nav: [
     //   {
     //     text: 'Blogcast',
