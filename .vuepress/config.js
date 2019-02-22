@@ -11,7 +11,10 @@ module.exports = {
     //     link: 'https://blogcast.host'
     //   }
     // ],
-    sidebar: [['/', 'Starter Guide']]
+    sidebar: [
+      ['/', 'Starter Guide'],
+      ['medium-embeds', 'Medium Embeds'],
+    ],
     displayAllHeaders: true
   },
   plugins: [
