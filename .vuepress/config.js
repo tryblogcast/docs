@@ -18,10 +18,11 @@ module.exports = {
     displayAllHeaders: true
   },
   plugins: [
-    '@vuepress/active-header-links',
+    // '@vuepress/plugin-pwa',
     '@vuepress/medium-zoom',
-    '@vuepress/pwa',
-    'vuepress-plugin-export',
-    'seo'
+    '@vuepress/back-to-top',
+    'export',
+    // 'seo',
+    'autometa',
   ]
 };

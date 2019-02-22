@@ -18,20 +18,20 @@
         class="site-name"
         v-if="$siteTitle"
         :class="{ 'can-hide': $site.themeConfig.logo }"
-      >Blogcast</span>
+      >{{ $siteTitle }}</span>
     </a>
 
     <div
       class="links"
-      :style="{
+      :style="linksWrapMaxWidth ? {
         'max-width': linksWrapMaxWidth + 'px'
-      }"
+      } : {}"
     >
       <AlgoliaSearchBox
         v-if="isAlgoliaSearch"
         :options="algolia"
       />
-      <SearchBox v-else-if="$site.themeConfig.search !== false"/>
+      <SearchBox v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false"/>
       <NavLinks class="can-hide"/>
     </div>
   </header>
@@ -40,7 +40,7 @@
 <script>
 import SidebarButton from './SidebarButton.vue'
 import AlgoliaSearchBox from '@AlgoliaSearchBox'
-import SearchBox from './SearchBox.vue'
+import SearchBox from '@SearchBox'
 import NavLinks from './NavLinks.vue'
 
 export default {
@@ -59,8 +59,8 @@ export default {
       if (document.documentElement.clientWidth < MOBILE_DESKTOP_BREAKPOINT) {
         this.linksWrapMaxWidth = null
       } else {
-        this.linksWrapMaxWidth = this.$el.offsetWidth - NAVBAR_VERTICAL_PADDING -
-          (this.$refs.siteName && this.$refs.siteName.offsetWidth || 0)
+        this.linksWrapMaxWidth = this.$el.offsetWidth - NAVBAR_VERTICAL_PADDING
+          - (this.$refs.siteName && this.$refs.siteName.offsetWidth || 0)
       }
     }
     handleLinksWrapWidth()
@@ -87,15 +87,12 @@ function css (el, property) {
 </script>
 
 <style lang="stylus">
-@import './styles/config.styl'
-
 $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
 .navbar
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
-  position relative
   a, span, img
     display inline-block
   .logo
@@ -121,8 +118,6 @@ $navbar-horizontal-padding = 1.5rem
     .search-box
       flex: 0 0 auto
       vertical-align top
-    .nav-links
-      flex 1
 
 @media (max-width: $MQMobile)
   .navbar

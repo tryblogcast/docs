@@ -1,0 +1,7 @@
+{
+    "name": "Blogcast Documentation",
+    "short_name": "Blogcast Docs",
+    "display": "browser",
+    "scope": "/",
+    "start_url": "/"
+}
