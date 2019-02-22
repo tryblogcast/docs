@@ -12,6 +12,7 @@ module.exports = {
     //   }
     // ],
     sidebar: [['/', 'Starter Guide']]
+    displayAllHeaders: true
   },
   plugins: [
     '@vuepress/active-header-links',
