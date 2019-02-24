@@ -5,12 +5,12 @@ module.exports = {
     repo: 'tryblogcast/docs',
     editLinks: true,
 
-    // nav: [
-    //   {
-    //     text: 'Blogcast',
-    //     link: 'https://blogcast.host'
-    //   }
-    // ],
+    nav: [
+      {
+        text: 'API Reference',
+        link: 'https://documenter.getpostman.com/view/1291260/S11GReyc'
+      }
+    ],
     sidebar: [
       ['/', 'Starter Guide'],
       ['medium-embeds', 'Medium Embeds'],
