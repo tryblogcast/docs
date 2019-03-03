@@ -13,8 +13,13 @@ module.exports = {
     ],
     sidebar: [
       ['/', 'Starter Guide'],
-      ['medium-embeds', 'Medium Embeds'],
-      ['dev-embeds', 'DEV.to Embeds'],
+      {
+        title: 'Embeds',
+        children: [
+          ['medium-embeds', 'Medium Embeds'],
+          ['dev-embeds', 'DEV.to Embeds']
+        ]
+      }
     ],
     displayAllHeaders: true
   },
