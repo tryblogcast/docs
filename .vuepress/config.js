@@ -16,8 +16,9 @@ module.exports = {
       {
         title: 'Embeds',
         children: [
-          ['medium-embeds', 'Medium Embeds'],
-          ['dev-embeds', 'DEV.to Embeds']
+          ['embeds/medium', 'Medium Embeds'],
+          ['embeds/dev-to', 'DEV.to Embeds'],
+          ['embeds/dynamic', 'Dynamic Embeds'],
         ]
       }
     ],
