@@ -10,6 +10,6 @@ For `$20`, I'll setup your website to automatically display embeds on all the ar
 
 In case you're using a closed platform where automation is not possible (e.g. Medium), I'll manually add it to your existing ones and write a detailed guide on how you can add the embed to your new articles by yourself.
 
-I'll optionally add all your existing articles to Blogcast and setup [Blogcast Sync](sync) so new articles get added to Blogcast automatically for `$5` (article price not included).
+I'll optionally add all your existing articles to Blogcast for `$5` and setup [Blogcast Sync](sync) so new articles get added to Blogcast automatically for another `$5` (article price not included).
 
 Interested? Email me at [human@blogcast.host](mailto:human@blogcast.host?subject=Human%20Embedding)
