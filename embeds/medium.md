@@ -4,7 +4,7 @@ title: Medium Embeds
 
 # Embedding the Blogcast player on Medium
 
-### Why can't I simply use the provided HTML?
+### Why can't I use the provided HTML?
 
 If you're using Medium to publish your articles and have tried to follow the [Starter Guide](/), you'll have noticed Medium doesn't allow you to include raw HTML embeds.
 
