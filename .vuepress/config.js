@@ -21,7 +21,8 @@ module.exports = {
           ['embeds/dynamic', 'Dynamic Embeds'],
           ['embeds/human', 'Human Embedding'],
         ]
-      }
+      },
+      ['importing', 'Importing'],
     ],
     displayAllHeaders: true
   },
