@@ -19,6 +19,7 @@ module.exports = {
           ['embeds/medium', 'Medium Embeds'],
           ['embeds/dev-to', 'DEV.to Embeds'],
           ['embeds/dynamic', 'Dynamic Embeds'],
+          ['embeds/human', 'Human Embedding'],
         ]
       }
     ],
