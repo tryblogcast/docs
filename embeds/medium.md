@@ -15,7 +15,7 @@ Medium mantains a list of the providers you can embed on your articles, and bloc
 <details>
 <summary>Video Walkthrough</summary>
 
-![Guided tutorial](images/medium-embeds.gif)
+![Guided tutorial](images/medium.gif)
 
 </details>
 

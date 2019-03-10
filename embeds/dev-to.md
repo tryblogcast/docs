@@ -15,7 +15,7 @@ This is because DEV mantains their custom templating language, limiting you to c
 <details>
 <summary>Video Walkthrough</summary>
 
-![Guided tutorial](images/dev-embeds.gif)
+![Guided tutorial](images/dev.gif)
 
 </details>
 
