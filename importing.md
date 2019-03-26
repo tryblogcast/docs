@@ -4,7 +4,19 @@ title: Importing Articles
 
 # How to import all your existing articles into Blogcast
 
-By following the [Starter Guide](/), you have learned how to manually import articles into Blogcast. But this method is less than ideal if you have a few existing articles you'd like to add to Blogcast. Fortunately, Blogcast supports bulk imports. Here are the three ways you can import your existing articles:
+By following the [Starter Guide](/), you have learned how to manually import articles into Blogcast. But this method is less than ideal if you have a few existing articles you'd like to add to Blogcast. Fortunately, Blogcast supports bulk imports. Here are the four ways you can import your existing articles:
+
+## Importing via Medium
+
+If you're using Medium you're in luck, as Blogcast supports importing all your articles directly from Medium using their API.
+
+To import your articles, you'll need to know your Medium username. You can get it by going to [your user page](https://medium.com/me) and copying the part after the `@`.
+
+Once you know your username, head up to the [Blogcast importing page](https://blogcast.host/import), select `Import from Medium` and enter your Medium username.
+
+You'll then have a chance to preview the URLs that'll be imported, add more articles or delete some. Once you click the `Import articles` button and select a voice in the modal that opens, Blogcast will get rid of duplicate articles and apply a high-volume discount if you're importing more than 50 articles.
+
+The importing process will then start, and can last between two and twenty minutes depending on the number of articles you're importing.
 
 ## Importing via RSS
 
