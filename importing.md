@@ -18,6 +18,18 @@ You'll then have a chance to preview the URLs that'll be imported, add more arti
 
 The importing process will then start, and can last between two and twenty minutes depending on the number of articles you're importing.
 
+## Importing via DEV
+
+If you're using DEV you're in luck, as Blogcast supports importing all your articles directly from DEV using their API.
+
+To import your articles, you'll need to know your DEV username. You can get it by visiting [DEV.to](https://dev.to) and hovering over your profile pic (on the top right corner).
+
+Once you know your username, head up to the [Blogcast importing page](https://blogcast.host/import), select `Import from DEV` and enter your username.
+
+You'll then have a chance to preview the URLs that'll be imported, add more articles or delete some. Once you click the `Import articles` button and select a voice in the modal that opens, Blogcast will get rid of duplicate articles and apply a high-volume discount if you're importing more than 50 articles.
+
+The importing process will then start, and can last between two and twenty minutes depending on the number of articles you're importing.
+
 ## Importing via RSS
 
 <details>
