@@ -13,6 +13,8 @@ module.exports = {
     ],
     sidebar: [
       ['/', 'Starter Guide'],
+      ['importing', 'Importing'],
+      ['sync', 'Blogcast Sync'],
       {
         title: 'Embeds',
         children: [
@@ -23,7 +25,6 @@ module.exports = {
           ['embeds/human', 'Human Embedding'],
         ]
       },
-      ['importing', 'Importing'],
     ],
     displayAllHeaders: true
   },
