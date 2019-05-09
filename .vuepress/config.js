@@ -18,6 +18,7 @@ module.exports = {
         children: [
           ['embeds/medium', 'Medium Embeds'],
           ['embeds/dev-to', 'DEV.to Embeds'],
+          ['embeds/statamic', 'Statamic Embeds'],
           ['embeds/dynamic', 'Dynamic Embeds'],
           ['embeds/human', 'Human Embedding'],
         ]
