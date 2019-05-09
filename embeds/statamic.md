@@ -8,7 +8,7 @@ title: Statamic Embeds
 
 The short answer is that you can, but using the addon makes everything easier.
 
-Under the hood, the `blogcast` Statamic tag adds the same HTML you'd copy from your dashboard, but it also comes with [dynamic embeding](embeds/statamic) by default.
+Under the hood, the `blogcast` Statamic tag adds the same HTML you'd copy from your dashboard, but it also comes with [dynamic embeding](dynamic) by default.
 
 ### Adding the Blogcast player to your Statamic articles
 
